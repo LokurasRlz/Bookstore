@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 
-
 const NavBar = () => (
   <header>
     <h1 className="logo">Bookstore CMS</h1>
