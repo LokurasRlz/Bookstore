@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family='Montserrat', sans-serif;&family=Roboto+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Slab:wght@300&display=swap');
 
 * {
   padding: 0;
@@ -42,7 +42,7 @@ body {
 }
 
 .logo {
-  width: 25rem;
+  min-width: 25rem;
   height: 2.313rem;
   margin: 0.375rem 2.938rem 0.125rem 0;
   font-family: 'Montserrat', sans-serif;
@@ -170,7 +170,7 @@ input::placeholder {
 
 .book__form-btn {
   border: none;
-  width: 11.5rem;
+  min-width: 11.5rem;
   height: 2.813rem;
   margin: 1.188rem 0 0 2.125rem;
   padding: 0.801rem 1.188rem 0.886rem 1.375rem;
