@@ -37,7 +37,7 @@ const BookForm = () => {
       <form className="book__form">
         <input type="text" className="book__form-title" id="form-title" placeholder="Book title" value={title} onChange={onTitleChange} onBlur={onTitleChange} />
         <input type="text" className="book__form-author" id="form-author" placeholder="Author" value={author} onChange={onAuthorChange} onBlur={onAuthorChange} />
-        <button type="submit" className="btn book__form-btn" onClick={handleSubmit}>ADD BOOK</button>
+        <button type="submit" className="book__form-btn" onClick={handleSubmit}>ADD BOOK</button>
         <span className="form__message" id="form__message" />
       </form>
     </section>
