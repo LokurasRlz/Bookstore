@@ -12,23 +12,23 @@ body {
   background-color: #fafafa;
 }
 
+.body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
 .section {
   width: 50%;
   margin: 40vh auto;
 }
 
-.header {
-  width: 87.5rem;
-  height: 5.938rem;
-  margin: 0 0 2.375rem;
-  padding: 1.438rem 6.188rem 1.688rem 6.25rem;
-  background-color: #fff;
-}
-
 .navbar {
   display: flex;
   align-items: center;
-  width: 70%;
+  width: 82%;
+  margin-left: 3%;
 }
 
 .header__nav {
@@ -39,6 +39,7 @@ body {
   background-color: #fff;
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .logo {
